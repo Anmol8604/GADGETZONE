@@ -1,0 +1,39 @@
+/* Media Quesries */
+@media (max-width : 1165px) {
+    .lau{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 940px) {
+    .navicon{
+        display: none;
+    }
+
+    .logo{
+        position: absolute;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .lau{
+        margin-top: -10px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 750px) {
+    .lau{
+        margin-top: -25px;
+        font-size: 20px;
+    }
+    .hit{
+
+        font-size: 1px;
+    }
+    .button{
+        font-size: 14px;
+        margin-left: -20px;
+        margin-bottom: -60px;
+    }
+}

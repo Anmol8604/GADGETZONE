@@ -1,72 +1,110 @@
 *{
-    margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    border: border-box;
-}
-
-i{
-    color: #fdd037;
-}
-
-.navbar{
-    /* display: none; */
-    height: 55px; 
-    width: 100%;
-    /* background-color: #78a6c8; */
-    background-color: #244d61;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-main{
-    background-color: #244d61;
-}
-
-.nav-logo{
-    height: 50px;
-    width: 130px;
     margin: 0px;
 }
 
-.border{
-    border: transparent 2px solid;
-    margin: 10px;
-    padding: 5px;
+:root{
+    background-color: #ddd;
 }
-.border:hover{
-    border: #fff 2px solid;
+
+.flex {
+    display: flex;
 }
+
+
+/* Navigation bar */
+
+.navbar{
+    height: 55px;
+    background-color: #bbb;
+}
+
 .logo{
-    background-image: url(images/logo.png);
-    background-size: cover;
-    height: 50px;
-    width: 130px;
-    margin-left: 0px;
+    height: 45px;
+    margin-top: 3px;
+    margin-left: 20px;
 }
 
-.f{
-    color: #eaebed;
-    font-size: 12px;
-    margin-left: 14px;
+.div-nav-icon{
+    width: 60%;
+    margin: 14px;
+    /* justify-content: space-evenly; */
 }
 
-.s{
-    align-items: center;
-    display: flex;
+.div-login{
+    width: 30%;
+    justify-content: end;
+    margin: 14px;
+    margin-right: 20px;
 }
 
-
-.navlist{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.border{
+    padding:  4px 16px;
+    margin: 0 2px;
+    border: transparent solid 2px;
 }
-.navcol{
-    margin-right: 3px;
+
+.border:hover{
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: #333;
+}
+
+.nav-icon{
+    margin: 0px 20px;
 }
 
 .fa-solid{
-    color: #fdd037;
+    margin-left: 8px;
 }
 
+.click{
+    > .di{
+        display: none;
+    }
+}
+
+
+/* New Launch Banner */
+
+.newLaunch{
+    position: relative;
+}
+
+.lau{
+    position: absolute;
+    font-weight: 900;
+    top: 50px;
+    left: 50%;
+    font-size: 60px;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.hit{
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.button{
+    padding: 5px 10px;
+    margin-top: 2px;
+    color: #fff;
+    background-color: #8183af;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #fdd037;
+    color: #000;
+}
+
+.ban{
+    width: 100%;
+}
