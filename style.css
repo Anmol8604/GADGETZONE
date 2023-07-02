@@ -2,12 +2,30 @@
     margin: 0px;
 }
 
+body{
+    background-color: var(--primary-back-color);
+}
+
 :root{
-    background-color: #ddd;
+    --primary-text-color : #000;
+    --primary-back-color: #ddd;
+    --secondary-back-color: #bbb;
+    --bor: #aaa;
+}
+
+.dark{
+    --primary-text-color : #ffffff;
+    --primary-back-color: #2e424d;
+    --secondary-back-color: #5b8291;
+    --bor: #2e424d;
 }
 
 .flex {
     display: flex;
+}
+
+p{
+    color: var(--primary-text-color);
 }
 
 
@@ -15,7 +33,7 @@
 
 .navbar{
     height: 55px;
-    background-color: #bbb;
+    background-color: var(--primary-back-color);
 }
 
 .logo{
@@ -25,6 +43,7 @@
 }
 
 .div-nav-icon{
+    /* color: var(--primary-text-color); */
     width: 60%;
     margin: 14px;
     /* justify-content: space-evenly; */
@@ -54,6 +73,7 @@
 }
 
 .fa-solid{
+    color: var(--primary-text-color);
     margin-left: 8px;
 }
 
@@ -63,6 +83,12 @@
     }
 }
 
+.material-symbols-outlined {
+    color: var(--primary-text-color);
+    margin-left: 8px;
+}
+
+
 
 /* New Launch Banner */
 
@@ -71,14 +97,13 @@
 }
 
 .lau{
+    background-color: transparent;
     position: absolute;
     font-weight: 900;
     top: 50px;
     left: 50%;
     font-size: 60px;
     transform: translate(-50%, -50%);
-
-
 }
 
 .hit{
@@ -107,4 +132,39 @@
 
 .ban{
     width: 100%;
+}
+
+/* Main Cards */
+
+.main{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: wrap; */
+}
+
+.card{
+    width: 280px;
+    background-color: var(--secondary-back-color);
+    border: transparent solid 3px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+}
+
+.heading{
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dis {
+    text-align: center;
+}
+
+.bor {
+    border: transparent solid 2px;
+    background-color: var(--bor);
+    padding: 4px 8px;
+    border-radius: 10px;
 }
