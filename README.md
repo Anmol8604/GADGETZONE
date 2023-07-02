@@ -11,12 +11,12 @@
 > **On date 1July,2023**
 > 
 *Change in Navigation bar and new launch banner added*
-> ![Alt text](how_it_started/1st%2Cjuly.png)
+>![Alt text](how_it_started/1st%2Cjuly.png)
 
 > **On date 2July,2023**
 > 
 *Added cards and Theme mode*
-> ![Alt text](how_it_started/2july1.png)
+> ![Alt text](how_it_started/2july1.png) 
 > ![Alt text](how_it_started/2july2.png)
 > ![Alt text](how_it_started/2july3.png)
 > ![Alt text](how_it_started/2july4.png)
