@@ -11,7 +11,7 @@
 > **On date 1July,2023**
 > 
 *Change in Navigation bar and new launch banner added*
-> ![Alt text](how_it_started/1st%2C%20july.png)
+> ![Alt text](how_it_started/1st%2Cjuly.png)
 
 > **On date 2July,2023**
 > 
