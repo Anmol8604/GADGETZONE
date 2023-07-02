@@ -16,3 +16,7 @@
 > **On date 2July,2023**
 > 
 *Added cards and Theme mode*
+> ![Alt text](how_it_started/2july1.png)
+> ![Alt text](how_it_started/2july2.png)
+> ![Alt text](how_it_started/2july3.png)
+> ![Alt text](how_it_started/2july4.png)
