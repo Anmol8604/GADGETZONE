@@ -43,10 +43,8 @@ p{
 }
 
 .div-nav-icon{
-    /* color: var(--primary-text-color); */
     width: 60%;
     margin: 14px;
-    /* justify-content: space-evenly; */
 }
 
 .div-login{
