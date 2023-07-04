@@ -1,82 +1,93 @@
-*{
+* {
     margin: 0px;
 }
 
-body{
+body {
     background-color: var(--primary-back-color);
 }
 
-:root{
-    --primary-text-color : #000;
+a{
+    text-decoration: none;
+}
+
+:root {
+    --primary-text-color: #000;
     --primary-back-color: #ddd;
     --secondary-back-color: #bbb;
     --bor: #aaa;
+
+    --mac-p-color: #e9edc9;
+    --mac-s-color: #ccd5ae;
+
 }
 
-.dark{
-    --primary-text-color : #ffffff;
+.dark {
+    --primary-text-color: #ffffff;
     --primary-back-color: #2e424d;
     --secondary-back-color: #5b8291;
     --bor: #2e424d;
+
+    --mac-p-color: #183769;
+    --mac-s-color: #1b1d1d;
 }
 
 .flex {
     display: flex;
 }
 
-p{
+p {
     color: var(--primary-text-color);
 }
 
 
 /* Navigation bar */
 
-.navbar{
+.navbar {
     height: 55px;
     background-color: var(--primary-back-color);
 }
 
-.logo{
+.logo {
     height: 45px;
     margin-top: 3px;
     margin-left: 20px;
 }
 
-.div-nav-icon{
+.div-nav-icon {
     width: 60%;
     margin: 14px;
 }
 
-.div-login{
+.div-login {
     width: 30%;
     justify-content: end;
     margin: 14px;
     margin-right: 20px;
 }
 
-.border{
-    padding:  4px 16px;
+.border {
+    padding: 4px 8px;
     margin: 0 2px;
     border: transparent solid 2px;
 }
 
-.border:hover{
+.border:hover {
     cursor: pointer;
     border-radius: 4px;
     border-color: #333;
 }
 
-.nav-icon{
+.nav-icon {
     margin: 0px 20px;
 }
 
-.fa-solid{
+.fa-solid {
     color: var(--primary-text-color);
     margin-left: 8px;
 }
 
-.click{
-    > .di{
+.click {
+    >.di {
         display: none;
     }
 }
@@ -90,11 +101,11 @@ p{
 
 /* New Launch Banner */
 
-.newLaunch{
+.newLaunch {
     position: relative;
 }
 
-.lau{
+.lau {
     background-color: transparent;
     position: absolute;
     font-weight: 900;
@@ -104,7 +115,7 @@ p{
     transform: translate(-50%, -50%);
 }
 
-.hit{
+.hit {
     position: absolute;
     left: 5%;
     bottom: 10%;
@@ -113,7 +124,7 @@ p{
     color: #fff;
 }
 
-.button{
+.button {
     padding: 5px 10px;
     margin-top: 2px;
     color: #fff;
@@ -122,26 +133,25 @@ p{
     border-radius: 5px;
 }
 
-.button:hover{
+.button:hover {
     cursor: pointer;
     background-color: #fdd037;
     color: #000;
 }
 
-.ban{
+.ban {
     width: 100%;
 }
 
 /* Main Cards */
 
-.main{
+.main {
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: wrap; */
 }
 
-.card{
+.card {
     width: 280px;
     background-color: var(--secondary-back-color);
     border: transparent solid 3px;
@@ -150,7 +160,25 @@ p{
     margin: 25px;
 }
 
-.heading{
+.chide{
+    .bord {
+        >.dis {
+            display: none;
+        }
+    }
+}
+.chide:hover {
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    >.bord {
+        >.dis {
+            display: flex;
+        }
+    }
+}
+
+.heading {
     color: var(--primary-text-color);
     text-align: center;
     margin-bottom: 10px;
@@ -161,8 +189,59 @@ p{
 }
 
 .bor {
+    cursor: pointer;
     border: transparent solid 2px;
     background-color: var(--bor);
     padding: 4px 8px;
     border-radius: 10px;
+}
+
+/* MacBook Section */
+
+
+.mac-card {
+    width: 280px;
+    background-color: var(--mac-s-color);
+    border: transparent solid 3px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+}
+
+.bor1 {
+    cursor: pointer;
+    border: transparent solid 2px;
+    background-color: var(--mac-p-color);
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.colors{
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.c{
+    cursor: pointer;
+    background-color: #2500f8;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.c:hover{
+    transform: scale(1.1);
+}
+
+.White{
+    background-color: #fff;
+}
+
+.Yellow{
+    background-color: yellow;
 }
