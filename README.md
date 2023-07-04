@@ -24,7 +24,10 @@
 > **On date 4-5July,2023**
 > 
 *Added cards in different sections, mac-book, iPhone, iPad, AirPods And added color-picker in all four Sections*
-> ![Alt text](how_it_started/2july1.png)
-> ![Alt text](how_it_started/2july2.png)
-> ![Alt text](how_it_started/2july3.png)
-> ![Alt text](how_it_started/2july4.png)
+> ![Alt text](how_it_started/image.png)
+> ![Alt text](how_it_started/image-1.png)
+> ![Alt text](how_it_started/image-2.png)
+> ![Alt text](how_it_started/image-3.png)
+> **In Dark Mode**
+> ![Alt text](how_it_started/image-4.png)
+> ![Alt text](how_it_started/image-5.png)
