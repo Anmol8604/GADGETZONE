@@ -8,12 +8,12 @@
  *Created navingation bar...*
 > ![Alt text](how_it_started/30June.png)
 
-> **On date 1July,2023**
+> # **On date 1July,2023**
 > 
 *Change in Navigation bar and new launch banner added*
 >![Alt text](how_it_started/1st%2Cjuly.png)
 
-> **On date 2July,2023**
+> # **On date 2July,2023**
 > 
 *Added cards and Theme mode*
 > ![Alt text](how_it_started/2july1.png)
@@ -21,7 +21,7 @@
 > ![Alt text](how_it_started/2july3.png)
 > ![Alt text](how_it_started/2july4.png)
 
-> **On date 4-5July,2023**
+> # **On date 4-5July,2023**
 > 
 *Added cards in different sections, mac-book, iPhone, iPad, AirPods And added color-picker in all four Sections*
 > ![Alt text](how_it_started/image.png)
