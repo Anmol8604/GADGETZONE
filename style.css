@@ -16,8 +16,8 @@ a{
     --secondary-back-color: #bbb;
     --bor: #aaa;
 
-    --mac-p-color: #e9edc9;
-    --mac-s-color: #ccd5ae;
+    --mac-p-color: #9d96b7;
+    --mac-s-color: #7b739aeb;
 
 }
 
@@ -244,4 +244,66 @@ p {
 
 .Yellow{
     background-color: yellow;
+}
+
+
+/* Footer */
+.fab{
+    color: var(--primary-text-color);
+}
+
+.footer {
+    background-color: var(--secondary-back-color);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col1{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin: 10px;
+    align-items: center;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin: 10px;
+    /* align-items: center; */
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin: 10px;
+    /* align-items: center; */
+}
+
+
+.h2{
+    color: var(--primary-text-color);
+    /* text-align: center; */
+}
+a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.h2{
+    color: #000;
+}
+
+.col1_img{
+    width: 80px;
+    border-radius: 100%;
 }
