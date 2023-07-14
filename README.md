@@ -35,5 +35,6 @@
 
 > # **On date 15July,2023**
 > 
-*Added login page*
+*Added login page and sign-up page*
 > ![Alt text](how_it_started/image15july.png)
+> ![Alt text](how_it_started/image15july2.png)

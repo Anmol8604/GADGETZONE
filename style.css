@@ -322,6 +322,9 @@ a{
 }
 
 .child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 5%;
 }
 
@@ -384,4 +387,10 @@ a{
 .loginIMG{
     mix-blend-mode: multiply;
     height: 600px;
+}
+
+.ln{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(54, 67, 255);
 }
