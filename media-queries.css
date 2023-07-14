@@ -36,4 +36,9 @@
         margin-left: -20px;
         margin-bottom: -60px;
     }
+    .loginIMG{
+        overflow: hidden;
+        mix-blend-mode: multiply;
+        height: 400px;
+    }
 }

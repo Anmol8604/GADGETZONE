@@ -1,6 +1,7 @@
 # GADGET ZONE
 > ![Alt text](images/logo.png)
-> *It's a website which sells eclectronic devices.*
+> 
+*It's a website which sells eclectronic devices.*
 
 > # Tracking Process
 > **On date 30Jun,2023**
@@ -31,3 +32,8 @@
 > **In Dark Mode**
 > ![Alt text](how_it_started/image-4.png)
 > ![Alt text](how_it_started/image-5.png)
+
+> # **On date 15July,2023**
+> 
+*Added login page*
+> ![Alt text](how_it_started/image15july.png)
